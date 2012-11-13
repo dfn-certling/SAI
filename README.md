@@ -34,10 +34,12 @@ Installation and usage
 ----------------------
 
 See INSTALL.md in /doc.
+
 See USAGE.md in /doc.
 
 Contact
 -------
 
 concept and author: timo.schaepe at web.de
+
 concept: keil at dfn-cert.de

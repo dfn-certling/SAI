@@ -25,11 +25,11 @@ a BroadcastReceiver for exact this specific BroadcastIntent. So you have to
 put this BroadcastReceiver in your AndroidManifest.xml into the <application>
 tag, where "MyReceiver" is the name of your BroadcastReceiver class.
 
-  <receiver android:name="MyReceiver" >
-    <intent-filter>
-      <action android:name="de.dfncert.sai.install_hook" />
-    </intent-filter>
-  </receiver>
+    <receiver android:name="MyReceiver" >
+      <intent-filter>
+        <action android:name="de.dfncert.sai.install_hook" />
+      </intent-filter>
+    </receiver>
 
 Of course, you have to implement the BroadcastReceiver, here e.g.
 MyReceiver.java.
@@ -55,8 +55,8 @@ or not. The following code has to be called after completing your operations,
 where packageUri is the Uri of the package (you received this before via the
 BroadcastIntent) and the extra is either "install" or "abort":
 
-  Intent intent = new Intent();
-  intent.setComponent(new ComponentName("de.dfncert.sai", "de.dfncert.sai.SaiService"));
-  intent.setData(packageUri);
-  intent.putExtra("action", "install|abort");
-  startService(intent);
+    Intent intent = new Intent();
+    intent.setComponent(new ComponentName("de.dfncert.sai", "de.dfncert.sai.SaiService"));
+    intent.setData(packageUri);
+    intent.putExtra("action", "install|abort");
+    startService(intent);
