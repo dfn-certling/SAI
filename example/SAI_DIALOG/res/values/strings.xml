@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">SAI Test App</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="install">Install</string>
+	<string name="cancel">Cancel</string>
+    
+</resources>
