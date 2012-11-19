@@ -47,7 +47,7 @@ concept: keil at dfn-cert.de
 Copyright and license
 ---------------------
 
-Copyright 2012 Timo Schäpe
+Copyright 2012 DFN-CERT Services GmbH
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
